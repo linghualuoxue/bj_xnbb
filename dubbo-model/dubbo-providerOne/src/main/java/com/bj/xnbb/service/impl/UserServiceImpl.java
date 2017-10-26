@@ -6,11 +6,14 @@ import com.bj.xnbb.service.UserService;
 public class UserServiceImpl implements UserService {
 
     public void testGet() {
-
+        System.out.println("---测试get-----");
     }
 
     public User getUser() {
-        return null;
+        User user = new User();
+        user.setId("1001");
+        user.setName("zhangsan");
+        return user;
     }
 
     public User getUser(Integer id) {
