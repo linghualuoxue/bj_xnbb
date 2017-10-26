@@ -4,9 +4,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.bj.xnbb.e</groupId>
-    <artifactId>e-model</artifactId>
+    <groupId>com.bj.xnbb.dubbo-model</groupId>
+    <artifactId>dubbo-model</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>dubbo-providerOne</module>
+    </modules>
 
 
 </project>
