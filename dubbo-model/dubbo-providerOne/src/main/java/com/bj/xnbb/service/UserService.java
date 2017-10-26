@@ -34,7 +34,7 @@ public interface UserService {
 
     @POST
     @Path("/postUser")
-    public User postUser();
+    public User postUser(User user);
 
     @POST
     @Path("/post/{id}")

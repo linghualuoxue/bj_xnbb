@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+	http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd
+	http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-3.0.xsd">
+
+    <util:properties location="classpath:params.properties"></util:properties>
+    <dubbo:application name="provider" owner="programmer" organization="dubbox"></dubbo:application>
+    <dubbo:registry address="zookeeper://192.168.0.121:2181?backup=192.168.0.122:2181,192.168.0.123:2181"></dubbo:registry>
+    <dubbo:annotation package="com.bj.xnbb.service"></dubbo:annotation>
+    <!--<dubbo:protocol name="dubbo" -->
+    <dubbo:protocol name="rest" server="tomcat" port="8888" contextpath="provider" accepts="50"></dubbo:protocol>
+
+</beans>
