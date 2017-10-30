@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="dubbo-consumerOne" />
+        <module name="dubbo-providerOne" />
+        <module name="e-model" />
+        <module name="xnbb-com" />
+        <module name="xnbb-sys" />
+        <module name="xnbb-sys-faced" />
+        <module name="xnbb-sys-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="dubbo-consumerOne" target="1.5" />
+      <module name="dubbo-model" target="1.5" />
+      <module name="dubbo-providerOne" target="1.5" />
+      <module name="e-model" target="1.5" />
+      <module name="xnbb-com" target="1.7" />
+      <module name="xnbb-parent" target="1.7" />
+      <module name="xnbb-sys" target="1.7" />
+      <module name="xnbb-sys-faced" target="1.7" />
+      <module name="xnbb-sys-service" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

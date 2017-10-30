@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/dubbo-model/dubbo-consumerOne/dubbo-consumerOne.iml" filepath="$PROJECT_DIR$/dubbo-model/dubbo-consumerOne/dubbo-consumerOne.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-model/dubbo-model.iml" filepath="$PROJECT_DIR$/dubbo-model/dubbo-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-model/dubbo-providerOne/dubbo-providerOne.iml" filepath="$PROJECT_DIR$/dubbo-model/dubbo-providerOne/dubbo-providerOne.iml" />
+      <module fileurl="file://$PROJECT_DIR$/e-model/e-model.iml" filepath="$PROJECT_DIR$/e-model/e-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xnbb-parent/xnbb-com/xnbb-com.iml" filepath="$PROJECT_DIR$/xnbb-parent/xnbb-com/xnbb-com.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xnbb-parent/xnbb-parent.iml" filepath="$PROJECT_DIR$/xnbb-parent/xnbb-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xnbb-parent/xnbb-sys/xnbb-sys.iml" filepath="$PROJECT_DIR$/xnbb-parent/xnbb-sys/xnbb-sys.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xnbb-parent/xnbb-sys-faced/xnbb-sys-faced.iml" filepath="$PROJECT_DIR$/xnbb-parent/xnbb-sys-faced/xnbb-sys-faced.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xnbb-parent/xnbb-sys-service/xnbb-sys-service.iml" filepath="$PROJECT_DIR$/xnbb-parent/xnbb-sys-service/xnbb-sys-service.iml" />
+    </modules>
+  </component>
+</project>
