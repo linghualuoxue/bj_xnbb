@@ -17,6 +17,13 @@
             <version>3.8.1</version>
             <scope>test</scope>
         </dependency>
+
+        <dependency>
+            <groupId>xnbb</groupId>
+            <artifactId>xnbb-sys-faced</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
     </dependencies>
     <build>
         <finalName>xnbb-sys</finalName>

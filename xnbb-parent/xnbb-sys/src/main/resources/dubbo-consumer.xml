@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+	http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd
+	http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+	http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-3.0.xsd">
+
+    <!--<util:properties location="classpath:params.properties"></util:properties>-->
+      <context:property-placeholder location="classpath:config.properties" />
+      <dubbo:annotation package="xnbb"></dubbo:annotation>
+
+      <dubbo:application name="${dubbox.application}" owner="programmer" organization="dubbox"></dubbo:application>
+      <dubbo:registry address="${dubbox.registry.address}"></dubbo:registry>
+      <dubbo:protocol name="dubbo" threads="50" serialization="kryo" optimizer="xnbb.sys.serial.SerializationOptimizerImpl"></dubbo:protocol>
+      <dubbo:reference interface="xnbb.sys.faced.SysUserFaced" id="sysUserFaced" check="false"></dubbo:reference>
+
+</beans>

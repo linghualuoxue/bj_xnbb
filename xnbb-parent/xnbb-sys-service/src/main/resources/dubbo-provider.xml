@@ -17,10 +17,10 @@
 	<!-- zookeeper注册中心 -->
     <dubbo:registry address="${dubbox.registry.address}"/>
 
-    <dubbo:annotation package="bhz" />
+    <dubbo:annotation package="xnbb" />
     
     <!-- kryo实现序列化 -->
-    <dubbo:protocol name="dubbo" serialization="kryo" optimizer="bhz.sys.serial.SerializationOptimizerImpl" />
+    <dubbo:protocol name="dubbo" serialization="kryo" optimizer="xnbb.sys.serial.SerializationOptimizerImpl" />
    
 	<!-- rest -->
     <dubbo:protocol name="rest" server="${dubbox.rest.server}" port="${dubbox.rest.port}" contextpath="${dubbox.rest.contextpath}" threads="${dubbox.rest.threads}" accepts="${dubbox.rest.accepts}" />
